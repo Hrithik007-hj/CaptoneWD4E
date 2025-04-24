@@ -20,7 +20,7 @@ body {
     margin-top: -3%;
     width: 100vw;
     justify-content: space-between;
-    align-items: centre;
+    align-items: center;
 }
 
 .logo {
@@ -49,8 +49,8 @@ body {
     position: fixed;
     left: -250px;
     top: 0;
-    height: 100vh;
-    width: 30vw;
+    height: 75vh;
+    width: 50vw;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,7 @@ body {
 
 .worldimage {
     width: 96vw;
-    height: 35vh;
+    max-height: 35vh;
     border: 2px solid black;
     border-radius: 1px;
     margin: 0 auto;
@@ -150,13 +150,13 @@ h3 {
     position: relative;
     top: 0.75rem;
     width: 8vw;
-    height: 6vh;
+    max-height: 6vh;
     border: none;
     margin:0 auto;
 }
 
 img {
-    height: 35vh;
+    max-height: 35vh;
     border: 6px black solid;
     border-radius: 5px;
 }
@@ -166,6 +166,7 @@ h4 {
     border-bottom: 2px solid black;
     width: 30%;
 }
+
 p {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -190,42 +191,68 @@ h5 {
    padding: 2%;
 }
 
+@media screen and (max-width: 777px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar {
+    width: 50vw;
+  }
+}
+
 @media screen and (min-width: 778px) {
     .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
    }
 
     .sidebar {
-    width: 250px;
+     width: 250px;
    }
 
     .worldimage {
-    height: 40vh;
+     width: 90vw;
+     height: 40vh;
   }
 
     .icon {
-    width: 6vw;
-    height: 5vh;
+     width: 6vw;
+     height: 5vh;
   }
+
+    img {
+     width: 65vw
+     height: 35vh;
 }
 
 @media screen and (min-width: 998px) {
     .sidebar {
-        width: 25vw;
+     width: 25vw;
+    }
+    
+    .worldimage {
+    width: 90vw;
+    height: 40vh;
     }
 
     .icon {
-        width: 6vw;
-        height: 5vh;
+     width: 6vw;
+     height: 5vh;
+    }
+
+    img {
+     width: 65vw
+     height: 35vh;
     }
 }
 
 @media screen and (min-width: 1200px) {
   .worldimage {
-    width: 70vw;
-    height: 45vh;
+    width: 90vw;
+    height: 40vh;
   }
 
   h1, h2, h3, h4, h5 {
@@ -233,8 +260,12 @@ h5 {
   }
 
   .icon {
-    width: 5vw;
-    height: 4.5vh;
+    width: 6vw;
+    height: 5vh;
+
+  img {
+    width: 65vw
+    height: 35vh;
   }
 }
 
