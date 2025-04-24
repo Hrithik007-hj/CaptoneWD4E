@@ -204,7 +204,7 @@ h5 {
     .navbar {
         display: flex;
         justify-content: space-around;
-        align-items: centre;
+        align-items: center;
         width: 100vw;
         margin: 0 auto;
     }
@@ -218,12 +218,13 @@ h5 {
         border: none;
         margin:0 auto;
     }
+}
 
 @media screen and (min-width: 700px) {
     .navbar {
         display: flex;
         justify-content: space-between;
-        align-items: centre;
+        align-items: center;
         width: 100vw;
         margin: 0 auto;
     }
@@ -248,16 +249,13 @@ h5 {
         border: none;
         margin:0 auto;
     }
-
-    h1, h2, h3, h4, h5 {
-        font-size: 1.2rem;
 }
 
 @media screen and (min-width: 900px) {
     .navbar {
         display: flex;
         justify-content: space-between;
-        align-items: centre;
+        align-items: center;
         width: 100vw;
         margin: 0 auto;
     }
@@ -285,14 +283,10 @@ h5 {
      .worldimage {
         width: 84vw;
         height: 40vh;
-        justify-content: centre;
+        justify-content: center;
         border: 2px solid black;
         border-radius: 1px;
         margin: 0 auto;
-    }
-
-    h1, h2, h3, h4, h5 {
-        font-size: 1.2rem;
     }
 }
 
