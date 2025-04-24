@@ -230,7 +230,7 @@ h5 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100vw;
+        width: 100wv;
         margin: 0 auto;
     }
 
@@ -245,7 +245,7 @@ h5 {
     }
 
     img {
-        height: 35vh;
+        height: 30vh;
         border: 6px black solid;
         border-radius: 5px;
 
@@ -291,13 +291,13 @@ h5 {
     }
     
     img {
-        height: 40vh;
+        height: 20vh;
         border: 6px black solid;
         border-radius: 5px;
 
     .worldimage {
-        width: 84vw;
-        height: 35vh;
+        width: 90vw;
+        height: 30vh;
         justify-content: center;
         border: 2px solid black;
         border-radius: 1px;
