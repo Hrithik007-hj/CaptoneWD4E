@@ -209,6 +209,11 @@ h5 {
         margin: 0 auto;
     }
     
+    img {
+        height: 35vh;
+        border: 6px black solid;
+        border-radius: 5px;
+    
     .icon {
         position: relative;
         right: -220px;
@@ -238,6 +243,11 @@ h5 {
         display: flex;
         flex-direction: column;
     }
+
+    img {
+        height: 35vh;
+        border: 6px black solid;
+        border-radius: 5px;
 
     .icon {
         position: relative;
@@ -279,10 +289,15 @@ h5 {
         border: none;
         margin:0 auto;
     }
-
-     .worldimage {
-        width: 84vw;
+    
+    img {
         height: 40vh;
+        border: 6px black solid;
+        border-radius: 5px;
+
+    .worldimage {
+        width: 84vw;
+        height: 35vh;
         justify-content: center;
         border: 2px solid black;
         border-radius: 1px;
